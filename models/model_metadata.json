@@ -1,0 +1,42 @@
+{
+  "feature_columns": [
+    "Suhu",
+    "Vibrasi",
+    "Tekanan",
+    "Usia_Mesin",
+    "Jam_Operasi",
+    "Beban"
+  ],
+  "target_column": "Risk_Score",
+  "rmse": 5.435,
+  "mae": 4.24,
+  "r2": 0.697,
+  "train_rows": 1600,
+  "test_rows": 400,
+  "valid_ranges": {
+    "Suhu": [
+      20,
+      120
+    ],
+    "Vibrasi": [
+      0.1,
+      12
+    ],
+    "Tekanan": [
+      0.5,
+      15
+    ],
+    "Usia_Mesin": [
+      0,
+      20
+    ],
+    "Jam_Operasi": [
+      5,
+      168
+    ],
+    "Beban": [
+      5,
+      100
+    ]
+  }
+}
